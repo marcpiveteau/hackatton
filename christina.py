@@ -269,3 +269,7 @@ st.write("on vous recommande :")
 nom =listvoisin['track_name'].tolist()
 for i in range(len(listvoisin)):
 	st.write('le titre ',listvoisin.iloc[i,3], "de l'ariste",listvoisin.iloc[i,2], 'du genre', listvoisin.iloc[i,1] )
+
+
+
+	
