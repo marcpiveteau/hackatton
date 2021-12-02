@@ -10,7 +10,7 @@ import plotly.figure_factory as ff
 from plotly.subplots import make_subplots
 
 url = "https://raw.githubusercontent.com/marcpiveteau/hackatton/main/df_total_VF1.csv"
-df_music = pd.read_csv(url)
+df_music = pd.read_csv(url,low_memory =False)
 
 
 st.title('La musique de MURPHY')
