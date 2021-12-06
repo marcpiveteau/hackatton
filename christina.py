@@ -1,13 +1,14 @@
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import streamlit as st
+import matplotlib.pyplot as plt
 from streamlit_player import st_player
 from sklearn.neighbors import NearestNeighbors
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 from plotly.subplots import make_subplots
+import random 
 
 url = "https://raw.githubusercontent.com/marcpiveteau/hackatton/main/df_total_VF1.csv"
 df_music = pd.read_csv(url,low_memory =False)
