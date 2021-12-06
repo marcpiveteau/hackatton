@@ -205,7 +205,6 @@ except:
 
 
 
-import random 
 
 if(st.button('voir reco ou relancer une autre reco')):
 	df_humeur = df_humeur.drop_duplicates(subset=['track_id'])
